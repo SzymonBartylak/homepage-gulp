@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext');
 
 html {
   box-sizing: border-box;
@@ -20,6 +20,7 @@ html {
   "main main main"
   "footer footer footer";
   margin: 8px;
+  font-family: 'Lato'
 }
 
 .navigation{
@@ -28,15 +29,14 @@ html {
   display: flex;
   justify-content: center;
   grid-area: navigation;
-}
-
-.navigation__link{
+&__link{
   color: rgb(204, 149, 8);
   font-weight: bold;
   padding:13px;
   text-align: center;
   text-decoration: none;
   width:100%;
+}
 }
 
 .main{
@@ -76,15 +76,15 @@ html {
 
 .diary{
   grid-area: diary;
-}
-
-.diary__heading{
+&__heading{
   color: steelblue;
 }
-
-.diary__Paragraph{
-  background: gray;
+&__paragraph{
+  background:rgba(184, 138, 22, 0.5 );
   color: midnightblue;
+  font-weight: 500;
+  
+}
 }
 
 .footer{
