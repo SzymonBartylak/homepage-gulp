@@ -24,7 +24,7 @@ html {
 }
 
 .navigation{
-  background-color: midnightblue;
+  background-image: linear-gradient(to top, #30cfd0 -90%, #330867 100%);
   border: 4px solid black;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@ html {
 
 
 .about__heading{
-  background: darkred;
+  background:rgba(184, 138, 22, 0.5 );
   color: skyblue;
   font-size: 30px;
   grid-area: about;
@@ -71,7 +71,7 @@ html {
 }
 
 .article__paragraph{
-  background-color: rgb(190, 188, 188);
+  background:rgba(184, 138, 22, 0.5 );
 }
 
 .diary{
@@ -88,13 +88,12 @@ html {
 }
 
 .footer{
-  background: rgb(37, 65, 192);
   font-size: 15px;
   grid-area: footer;
 }
 
 .picture {
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 @media (max-width: 640px) {
